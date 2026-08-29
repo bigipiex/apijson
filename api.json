@@ -403,204 +403,6 @@
         "tool_call": true,
         "reasoning": true
       },
-      "kc/qwen/qwen3.6-plus": {
-        "id": "kc/qwen/qwen3.6-plus",
-        "name": "kc/Qwen3.6 Plus",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/qwen/qwen3.6-plus": {
-        "id": "kilocode/qwen/qwen3.6-plus",
-        "name": "kilocode/Qwen3.6 Plus",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/qwen/qwen3.5-397b-a17b": {
-        "id": "kc/qwen/qwen3.5-397b-a17b",
-        "name": "kc/Qwen3.5 397B A17B",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true
-      },
-      "kilocode/qwen/qwen3.5-397b-a17b": {
-        "id": "kilocode/qwen/qwen3.5-397b-a17b",
-        "name": "kilocode/Qwen3.5 397B A17B",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true
-      },
-      "kc/openai/gpt-5.5": {
-        "id": "kc/openai/gpt-5.5",
-        "name": "kc/GPT-5.5",
-        "limit": {
-          "context": 400000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/openai/gpt-5.5": {
-        "id": "kilocode/openai/gpt-5.5",
-        "name": "kilocode/GPT-5.5",
-        "limit": {
-          "context": 400000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/openai/gpt-5.4-mini": {
-        "id": "kc/openai/gpt-5.4-mini",
-        "name": "kc/GPT-5.4 Mini",
-        "limit": {
-          "context": 400000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/openai/gpt-5.4-mini": {
-        "id": "kilocode/openai/gpt-5.4-mini",
-        "name": "kilocode/GPT-5.4 Mini",
-        "limit": {
-          "context": 400000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-opus-4.7": {
-        "id": "kc/anthropic/claude-opus-4.7",
-        "name": "kc/Claude Opus 4.7",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-opus-4.7": {
-        "id": "kilocode/anthropic/claude-opus-4.7",
-        "name": "kilocode/Claude Opus 4.7",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-sonnet-4.6": {
-        "id": "kc/anthropic/claude-sonnet-4.6",
-        "name": "kc/Claude Sonnet 4.6",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-sonnet-4.6": {
-        "id": "kilocode/anthropic/claude-sonnet-4.6",
-        "name": "kilocode/Claude Sonnet 4.6",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
       "kc/anthropic/claude-haiku-4.5": {
         "id": "kc/anthropic/claude-haiku-4.5",
         "name": "kc/Claude Haiku 4.5",
@@ -660,178 +462,6 @@
         "name": "kilocode/Gemini 3.1 Pro",
         "limit": {
           "context": 1000000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/google/gemini-3-flash-preview": {
-        "id": "kc/google/gemini-3-flash-preview",
-        "name": "kc/Gemini 3 Flash",
-        "limit": {
-          "context": 1000000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/google/gemini-3-flash-preview": {
-        "id": "kilocode/google/gemini-3-flash-preview",
-        "name": "kilocode/Gemini 3 Flash",
-        "limit": {
-          "context": 1000000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/google/gemini-3.1-flash-lite": {
-        "id": "kc/google/gemini-3.1-flash-lite",
-        "name": "kc/Gemini 3.1 Flash Lite",
-        "limit": {
-          "context": 1000000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/google/gemini-3.1-flash-lite": {
-        "id": "kilocode/google/gemini-3.1-flash-lite",
-        "name": "kilocode/Gemini 3.1 Flash Lite",
-        "limit": {
-          "context": 1000000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/deepseek/deepseek-v4-pro": {
-        "id": "kc/deepseek/deepseek-v4-pro",
-        "name": "kc/DeepSeek V4 Pro",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "support_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ]
-      },
-      "kilocode/deepseek/deepseek-v4-pro": {
-        "id": "kilocode/deepseek/deepseek-v4-pro",
-        "name": "kilocode/DeepSeek V4 Pro",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "support_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ]
-      },
-      "kc/deepseek/deepseek-v4-flash": {
-        "id": "kc/deepseek/deepseek-v4-flash",
-        "name": "kc/DeepSeek V4 Flash",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "support_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ]
-      },
-      "kilocode/deepseek/deepseek-v4-flash": {
-        "id": "kilocode/deepseek/deepseek-v4-flash",
-        "name": "kilocode/DeepSeek V4 Flash",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "support_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ]
-      },
-      "kc/moonshotai/kimi-k2.6": {
-        "id": "kc/moonshotai/kimi-k2.6",
-        "name": "kc/Kimi K2.6",
-        "limit": {
-          "context": 128000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/moonshotai/kimi-k2.6": {
-        "id": "kilocode/moonshotai/kimi-k2.6",
-        "name": "kilocode/Kimi K2.6",
-        "limit": {
-          "context": 128000
         },
         "tool_call": true,
         "reasoning": true,
@@ -3571,24 +3201,6 @@
           "xhigh"
         ]
       },
-      "oc/x-preview-f-free": {
-        "id": "oc/x-preview-f-free",
-        "name": "oc/x-preview-f-free",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true
-      },
-      "opencode/x-preview-f-free": {
-        "id": "opencode/x-preview-f-free",
-        "name": "opencode/x-preview-f-free",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true
-      },
       "oc/muse-spark-1.2-contributor-free": {
         "id": "oc/muse-spark-1.2-contributor-free",
         "name": "oc/muse-spark-1.2-contributor-free",
@@ -4339,258 +3951,6 @@
         "name": "tacotron2",
         "tool_call": true,
         "reasoning": true
-      },
-      "kc/anthropic/claude-opus-4.7-low": {
-        "id": "kc/anthropic/claude-opus-4.7-low",
-        "name": "kc/anthropic/claude-opus-4.7-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-opus-4.7-medium": {
-        "id": "kc/anthropic/claude-opus-4.7-medium",
-        "name": "kc/anthropic/claude-opus-4.7-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-opus-4.7-high": {
-        "id": "kc/anthropic/claude-opus-4.7-high",
-        "name": "kc/anthropic/claude-opus-4.7-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-opus-4.7-xhigh": {
-        "id": "kc/anthropic/claude-opus-4.7-xhigh",
-        "name": "kc/anthropic/claude-opus-4.7-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-opus-4.7-low": {
-        "id": "kilocode/anthropic/claude-opus-4.7-low",
-        "name": "kilocode/anthropic/claude-opus-4.7-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-opus-4.7-medium": {
-        "id": "kilocode/anthropic/claude-opus-4.7-medium",
-        "name": "kilocode/anthropic/claude-opus-4.7-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-opus-4.7-high": {
-        "id": "kilocode/anthropic/claude-opus-4.7-high",
-        "name": "kilocode/anthropic/claude-opus-4.7-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-opus-4.7-xhigh": {
-        "id": "kilocode/anthropic/claude-opus-4.7-xhigh",
-        "name": "kilocode/anthropic/claude-opus-4.7-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-sonnet-4.6-low": {
-        "id": "kc/anthropic/claude-sonnet-4.6-low",
-        "name": "kc/anthropic/claude-sonnet-4.6-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-sonnet-4.6-medium": {
-        "id": "kc/anthropic/claude-sonnet-4.6-medium",
-        "name": "kc/anthropic/claude-sonnet-4.6-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kc/anthropic/claude-sonnet-4.6-high": {
-        "id": "kc/anthropic/claude-sonnet-4.6-high",
-        "name": "kc/anthropic/claude-sonnet-4.6-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-sonnet-4.6-low": {
-        "id": "kilocode/anthropic/claude-sonnet-4.6-low",
-        "name": "kilocode/anthropic/claude-sonnet-4.6-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-sonnet-4.6-medium": {
-        "id": "kilocode/anthropic/claude-sonnet-4.6-medium",
-        "name": "kilocode/anthropic/claude-sonnet-4.6-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "kilocode/anthropic/claude-sonnet-4.6-high": {
-        "id": "kilocode/anthropic/claude-sonnet-4.6-high",
-        "name": "kilocode/anthropic/claude-sonnet-4.6-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
       },
       "kc/anthropic/claude-haiku-4.5-low": {
         "id": "kc/anthropic/claude-haiku-4.5-low",
@@ -6788,78 +6148,6 @@
           "xhigh"
         ]
       },
-      "no-think/kc/anthropic/claude-opus-4.7": {
-        "id": "no-think/kc/anthropic/claude-opus-4.7",
-        "name": "no-think/kc/anthropic/claude-opus-4.7",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kilocode/anthropic/claude-opus-4.7": {
-        "id": "no-think/kilocode/anthropic/claude-opus-4.7",
-        "name": "no-think/kilocode/anthropic/claude-opus-4.7",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kc/anthropic/claude-sonnet-4.6": {
-        "id": "no-think/kc/anthropic/claude-sonnet-4.6",
-        "name": "no-think/kc/anthropic/claude-sonnet-4.6",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kilocode/anthropic/claude-sonnet-4.6": {
-        "id": "no-think/kilocode/anthropic/claude-sonnet-4.6",
-        "name": "no-think/kilocode/anthropic/claude-sonnet-4.6",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
       "no-think/kc/anthropic/claude-haiku-4.5": {
         "id": "no-think/kc/anthropic/claude-haiku-4.5",
         "name": "no-think/kc/anthropic/claude-haiku-4.5",
@@ -7292,1158 +6580,6 @@
           ]
         }
       },
-      "no-think/kr/claude-sonnet-5-low": {
-        "id": "no-think/kr/claude-sonnet-5-low",
-        "name": "no-think/kr/claude-sonnet-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kr/claude-sonnet-5-medium": {
-        "id": "no-think/kr/claude-sonnet-5-medium",
-        "name": "no-think/kr/claude-sonnet-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kr/claude-sonnet-5-high": {
-        "id": "no-think/kr/claude-sonnet-5-high",
-        "name": "no-think/kr/claude-sonnet-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kr/claude-sonnet-5-xhigh": {
-        "id": "no-think/kr/claude-sonnet-5-xhigh",
-        "name": "no-think/kr/claude-sonnet-5-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kiro/claude-sonnet-5-low": {
-        "id": "no-think/kiro/claude-sonnet-5-low",
-        "name": "no-think/kiro/claude-sonnet-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kiro/claude-sonnet-5-medium": {
-        "id": "no-think/kiro/claude-sonnet-5-medium",
-        "name": "no-think/kiro/claude-sonnet-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kiro/claude-sonnet-5-high": {
-        "id": "no-think/kiro/claude-sonnet-5-high",
-        "name": "no-think/kiro/claude-sonnet-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/kiro/claude-sonnet-5-xhigh": {
-        "id": "no-think/kiro/claude-sonnet-5-xhigh",
-        "name": "no-think/kiro/claude-sonnet-5-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-5-low": {
-        "id": "no-think/oc/claude-opus-5-low",
-        "name": "no-think/oc/claude-opus-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-5-medium": {
-        "id": "no-think/oc/claude-opus-5-medium",
-        "name": "no-think/oc/claude-opus-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-5-high": {
-        "id": "no-think/oc/claude-opus-5-high",
-        "name": "no-think/oc/claude-opus-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-5-xhigh": {
-        "id": "no-think/oc/claude-opus-5-xhigh",
-        "name": "no-think/oc/claude-opus-5-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-5-low": {
-        "id": "no-think/opencode/claude-opus-5-low",
-        "name": "no-think/opencode/claude-opus-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-5-medium": {
-        "id": "no-think/opencode/claude-opus-5-medium",
-        "name": "no-think/opencode/claude-opus-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-5-high": {
-        "id": "no-think/opencode/claude-opus-5-high",
-        "name": "no-think/opencode/claude-opus-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-5-xhigh": {
-        "id": "no-think/opencode/claude-opus-5-xhigh",
-        "name": "no-think/opencode/claude-opus-5-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-8-low": {
-        "id": "no-think/oc/claude-opus-4-8-low",
-        "name": "no-think/oc/claude-opus-4-8-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-8-medium": {
-        "id": "no-think/oc/claude-opus-4-8-medium",
-        "name": "no-think/oc/claude-opus-4-8-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-8-high": {
-        "id": "no-think/oc/claude-opus-4-8-high",
-        "name": "no-think/oc/claude-opus-4-8-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-8-xhigh": {
-        "id": "no-think/oc/claude-opus-4-8-xhigh",
-        "name": "no-think/oc/claude-opus-4-8-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-8-low": {
-        "id": "no-think/opencode/claude-opus-4-8-low",
-        "name": "no-think/opencode/claude-opus-4-8-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-8-medium": {
-        "id": "no-think/opencode/claude-opus-4-8-medium",
-        "name": "no-think/opencode/claude-opus-4-8-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-8-high": {
-        "id": "no-think/opencode/claude-opus-4-8-high",
-        "name": "no-think/opencode/claude-opus-4-8-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-8-xhigh": {
-        "id": "no-think/opencode/claude-opus-4-8-xhigh",
-        "name": "no-think/opencode/claude-opus-4-8-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-7-low": {
-        "id": "no-think/oc/claude-opus-4-7-low",
-        "name": "no-think/oc/claude-opus-4-7-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-7-medium": {
-        "id": "no-think/oc/claude-opus-4-7-medium",
-        "name": "no-think/oc/claude-opus-4-7-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-7-high": {
-        "id": "no-think/oc/claude-opus-4-7-high",
-        "name": "no-think/oc/claude-opus-4-7-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-7-xhigh": {
-        "id": "no-think/oc/claude-opus-4-7-xhigh",
-        "name": "no-think/oc/claude-opus-4-7-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-7-low": {
-        "id": "no-think/opencode/claude-opus-4-7-low",
-        "name": "no-think/opencode/claude-opus-4-7-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-7-medium": {
-        "id": "no-think/opencode/claude-opus-4-7-medium",
-        "name": "no-think/opencode/claude-opus-4-7-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-7-high": {
-        "id": "no-think/opencode/claude-opus-4-7-high",
-        "name": "no-think/opencode/claude-opus-4-7-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-7-xhigh": {
-        "id": "no-think/opencode/claude-opus-4-7-xhigh",
-        "name": "no-think/opencode/claude-opus-4-7-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-6-low": {
-        "id": "no-think/oc/claude-opus-4-6-low",
-        "name": "no-think/oc/claude-opus-4-6-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-6-medium": {
-        "id": "no-think/oc/claude-opus-4-6-medium",
-        "name": "no-think/oc/claude-opus-4-6-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-6-high": {
-        "id": "no-think/oc/claude-opus-4-6-high",
-        "name": "no-think/oc/claude-opus-4-6-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-6-low": {
-        "id": "no-think/opencode/claude-opus-4-6-low",
-        "name": "no-think/opencode/claude-opus-4-6-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-6-medium": {
-        "id": "no-think/opencode/claude-opus-4-6-medium",
-        "name": "no-think/opencode/claude-opus-4-6-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-6-high": {
-        "id": "no-think/opencode/claude-opus-4-6-high",
-        "name": "no-think/opencode/claude-opus-4-6-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-5-low": {
-        "id": "no-think/oc/claude-opus-4-5-low",
-        "name": "no-think/oc/claude-opus-4-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-5-medium": {
-        "id": "no-think/oc/claude-opus-4-5-medium",
-        "name": "no-think/oc/claude-opus-4-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-opus-4-5-high": {
-        "id": "no-think/oc/claude-opus-4-5-high",
-        "name": "no-think/oc/claude-opus-4-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-5-low": {
-        "id": "no-think/opencode/claude-opus-4-5-low",
-        "name": "no-think/opencode/claude-opus-4-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-5-medium": {
-        "id": "no-think/opencode/claude-opus-4-5-medium",
-        "name": "no-think/opencode/claude-opus-4-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-opus-4-5-high": {
-        "id": "no-think/opencode/claude-opus-4-5-high",
-        "name": "no-think/opencode/claude-opus-4-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-5-low": {
-        "id": "no-think/oc/claude-sonnet-5-low",
-        "name": "no-think/oc/claude-sonnet-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-5-medium": {
-        "id": "no-think/oc/claude-sonnet-5-medium",
-        "name": "no-think/oc/claude-sonnet-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-5-high": {
-        "id": "no-think/oc/claude-sonnet-5-high",
-        "name": "no-think/oc/claude-sonnet-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-5-xhigh": {
-        "id": "no-think/oc/claude-sonnet-5-xhigh",
-        "name": "no-think/oc/claude-sonnet-5-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-5-low": {
-        "id": "no-think/opencode/claude-sonnet-5-low",
-        "name": "no-think/opencode/claude-sonnet-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-5-medium": {
-        "id": "no-think/opencode/claude-sonnet-5-medium",
-        "name": "no-think/opencode/claude-sonnet-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-5-high": {
-        "id": "no-think/opencode/claude-sonnet-5-high",
-        "name": "no-think/opencode/claude-sonnet-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-5-xhigh": {
-        "id": "no-think/opencode/claude-sonnet-5-xhigh",
-        "name": "no-think/opencode/claude-sonnet-5-xhigh",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-4-6-low": {
-        "id": "no-think/oc/claude-sonnet-4-6-low",
-        "name": "no-think/oc/claude-sonnet-4-6-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-4-6-medium": {
-        "id": "no-think/oc/claude-sonnet-4-6-medium",
-        "name": "no-think/oc/claude-sonnet-4-6-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-4-6-high": {
-        "id": "no-think/oc/claude-sonnet-4-6-high",
-        "name": "no-think/oc/claude-sonnet-4-6-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-4-6-low": {
-        "id": "no-think/opencode/claude-sonnet-4-6-low",
-        "name": "no-think/opencode/claude-sonnet-4-6-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-4-6-medium": {
-        "id": "no-think/opencode/claude-sonnet-4-6-medium",
-        "name": "no-think/opencode/claude-sonnet-4-6-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-4-6-high": {
-        "id": "no-think/opencode/claude-sonnet-4-6-high",
-        "name": "no-think/opencode/claude-sonnet-4-6-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-4-5-low": {
-        "id": "no-think/oc/claude-sonnet-4-5-low",
-        "name": "no-think/oc/claude-sonnet-4-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-4-5-medium": {
-        "id": "no-think/oc/claude-sonnet-4-5-medium",
-        "name": "no-think/oc/claude-sonnet-4-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/oc/claude-sonnet-4-5-high": {
-        "id": "no-think/oc/claude-sonnet-4-5-high",
-        "name": "no-think/oc/claude-sonnet-4-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-4-5-low": {
-        "id": "no-think/opencode/claude-sonnet-4-5-low",
-        "name": "no-think/opencode/claude-sonnet-4-5-low",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-4-5-medium": {
-        "id": "no-think/opencode/claude-sonnet-4-5-medium",
-        "name": "no-think/opencode/claude-sonnet-4-5-medium",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "no-think/opencode/claude-sonnet-4-5-high": {
-        "id": "no-think/opencode/claude-sonnet-4-5-high",
-        "name": "no-think/opencode/claude-sonnet-4-5-high",
-        "limit": {
-          "context": 200000
-        },
-        "tool_call": true,
-        "reasoning": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
       "openrouter/stealth/ox-alpha-xhigh": {
         "id": "openrouter/stealth/ox-alpha-xhigh",
         "name": "stealth/ox-alpha-xhigh",
@@ -8788,6 +6924,900 @@
           "medium",
           "low"
         ]
+      },
+      "kc/openai/gpt-5.6-sol": {
+        "id": "kc/openai/gpt-5.6-sol",
+        "name": "kc/GPT-5.6 Sol",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/openai/gpt-5.6-sol": {
+        "id": "kilocode/openai/gpt-5.6-sol",
+        "name": "kilocode/GPT-5.6 Sol",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/openai/gpt-5.6-terra": {
+        "id": "kc/openai/gpt-5.6-terra",
+        "name": "kc/GPT-5.6 Terra",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/openai/gpt-5.6-terra": {
+        "id": "kilocode/openai/gpt-5.6-terra",
+        "name": "kilocode/GPT-5.6 Terra",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/openai/gpt-5.6-luna": {
+        "id": "kc/openai/gpt-5.6-luna",
+        "name": "kc/GPT-5.6 Luna",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/openai/gpt-5.6-luna": {
+        "id": "kilocode/openai/gpt-5.6-luna",
+        "name": "kilocode/GPT-5.6 Luna",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-opus-5": {
+        "id": "kc/anthropic/claude-opus-5",
+        "name": "kc/Claude Opus 5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-opus-5": {
+        "id": "kilocode/anthropic/claude-opus-5",
+        "name": "kilocode/Claude Opus 5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-sonnet-5": {
+        "id": "kc/anthropic/claude-sonnet-5",
+        "name": "kc/Claude Sonnet 5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-sonnet-5": {
+        "id": "kilocode/anthropic/claude-sonnet-5",
+        "name": "kilocode/Claude Sonnet 5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/google/gemini-3.7-flash": {
+        "id": "kc/google/gemini-3.7-flash",
+        "name": "kc/Gemini 3.7 Flash",
+        "limit": {
+          "context": 1000000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/google/gemini-3.7-flash": {
+        "id": "kilocode/google/gemini-3.7-flash",
+        "name": "kilocode/Gemini 3.7 Flash",
+        "limit": {
+          "context": 1000000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/google/gemini-3.5-flash-lite": {
+        "id": "kc/google/gemini-3.5-flash-lite",
+        "name": "kc/Gemini 3.5 Flash Lite",
+        "limit": {
+          "context": 1000000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/google/gemini-3.5-flash-lite": {
+        "id": "kilocode/google/gemini-3.5-flash-lite",
+        "name": "kilocode/Gemini 3.5 Flash Lite",
+        "limit": {
+          "context": 1000000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/qwen/qwen3.8-max": {
+        "id": "kc/qwen/qwen3.8-max",
+        "name": "kc/Qwen3.8 Max",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/qwen/qwen3.8-max": {
+        "id": "kilocode/qwen/qwen3.8-max",
+        "name": "kilocode/Qwen3.8 Max",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/qwen/qwen3.7-plus": {
+        "id": "kc/qwen/qwen3.7-plus",
+        "name": "kc/Qwen3.7 Plus",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/qwen/qwen3.7-plus": {
+        "id": "kilocode/qwen/qwen3.7-plus",
+        "name": "kilocode/Qwen3.7 Plus",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/deepseek/deepseek-v4-pro-0813": {
+        "id": "kc/deepseek/deepseek-v4-pro-0813",
+        "name": "kc/DeepSeek V4 Pro",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/deepseek/deepseek-v4-pro-0813": {
+        "id": "kilocode/deepseek/deepseek-v4-pro-0813",
+        "name": "kilocode/DeepSeek V4 Pro",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/deepseek/deepseek-v4-flash-0731": {
+        "id": "kc/deepseek/deepseek-v4-flash-0731",
+        "name": "kc/DeepSeek V4 Flash",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/deepseek/deepseek-v4-flash-0731": {
+        "id": "kilocode/deepseek/deepseek-v4-flash-0731",
+        "name": "kilocode/DeepSeek V4 Flash",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/moonshotai/kimi-k3": {
+        "id": "kc/moonshotai/kimi-k3",
+        "name": "kc/Kimi K3",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/moonshotai/kimi-k3": {
+        "id": "kilocode/moonshotai/kimi-k3",
+        "name": "kilocode/Kimi K3",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-opus-5-low": {
+        "id": "kc/anthropic/claude-opus-5-low",
+        "name": "kc/anthropic/claude-opus-5-low",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-opus-5-medium": {
+        "id": "kc/anthropic/claude-opus-5-medium",
+        "name": "kc/anthropic/claude-opus-5-medium",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-opus-5-high": {
+        "id": "kc/anthropic/claude-opus-5-high",
+        "name": "kc/anthropic/claude-opus-5-high",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-opus-5-xhigh": {
+        "id": "kc/anthropic/claude-opus-5-xhigh",
+        "name": "kc/anthropic/claude-opus-5-xhigh",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-opus-5-low": {
+        "id": "kilocode/anthropic/claude-opus-5-low",
+        "name": "kilocode/anthropic/claude-opus-5-low",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-opus-5-medium": {
+        "id": "kilocode/anthropic/claude-opus-5-medium",
+        "name": "kilocode/anthropic/claude-opus-5-medium",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-opus-5-high": {
+        "id": "kilocode/anthropic/claude-opus-5-high",
+        "name": "kilocode/anthropic/claude-opus-5-high",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-opus-5-xhigh": {
+        "id": "kilocode/anthropic/claude-opus-5-xhigh",
+        "name": "kilocode/anthropic/claude-opus-5-xhigh",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-sonnet-5-low": {
+        "id": "kc/anthropic/claude-sonnet-5-low",
+        "name": "kc/anthropic/claude-sonnet-5-low",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-sonnet-5-medium": {
+        "id": "kc/anthropic/claude-sonnet-5-medium",
+        "name": "kc/anthropic/claude-sonnet-5-medium",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-sonnet-5-high": {
+        "id": "kc/anthropic/claude-sonnet-5-high",
+        "name": "kc/anthropic/claude-sonnet-5-high",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kc/anthropic/claude-sonnet-5-xhigh": {
+        "id": "kc/anthropic/claude-sonnet-5-xhigh",
+        "name": "kc/anthropic/claude-sonnet-5-xhigh",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-sonnet-5-low": {
+        "id": "kilocode/anthropic/claude-sonnet-5-low",
+        "name": "kilocode/anthropic/claude-sonnet-5-low",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-sonnet-5-medium": {
+        "id": "kilocode/anthropic/claude-sonnet-5-medium",
+        "name": "kilocode/anthropic/claude-sonnet-5-medium",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-sonnet-5-high": {
+        "id": "kilocode/anthropic/claude-sonnet-5-high",
+        "name": "kilocode/anthropic/claude-sonnet-5-high",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "kilocode/anthropic/claude-sonnet-5-xhigh": {
+        "id": "kilocode/anthropic/claude-sonnet-5-xhigh",
+        "name": "kilocode/anthropic/claude-sonnet-5-xhigh",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "no-think/kc/anthropic/claude-opus-5": {
+        "id": "no-think/kc/anthropic/claude-opus-5",
+        "name": "no-think/claude-opus-5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "no-think/kilocode/anthropic/claude-opus-5": {
+        "id": "no-think/kilocode/anthropic/claude-opus-5",
+        "name": "no-think/claude-opus-5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "no-think/kc/anthropic/claude-sonnet-5": {
+        "id": "no-think/kc/anthropic/claude-sonnet-5",
+        "name": "no-think/claude-sonnet-5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "no-think/kilocode/anthropic/claude-sonnet-5": {
+        "id": "no-think/kilocode/anthropic/claude-sonnet-5",
+        "name": "no-think/claude-sonnet-5",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "oc/north-mini-code-free": {
+        "id": "oc/north-mini-code-free",
+        "name": "north-mini-code-free",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "oc/ling-3.0-flash-fin-free": {
+        "id": "oc/ling-3.0-flash-fin-free",
+        "name": "oc/ling-3.0-flash-fin-free",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "opencode/ling-3.0-flash-fin-free": {
+        "id": "opencode/ling-3.0-flash-fin-free",
+        "name": "opencode/ling-3.0-flash-fin-free",
+        "limit": {
+          "context": 200000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "openrouter/auto": {
+        "id": "openrouter/auto",
+        "name": "Auto (Best Available)",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "openrouter/google/gemini-embedding-2": {
+        "id": "openrouter/google/gemini-embedding-2",
+        "name": "google/gemini-embedding-2",
+        "limit": {},
+        "tool_call": true,
+        "reasoning": true
+      },
+      "openrouter/google/gemini-embedding-2-preview": {
+        "id": "openrouter/google/gemini-embedding-2-preview",
+        "name": "google/gemini-embedding-2-preview",
+        "limit": {},
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nous/Hermes-4-405B": {
+        "id": "nous/Hermes-4-405B",
+        "name": "nous/Hermes 4 7B (Nous Research)",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nous-research/Hermes-4-405B": {
+        "id": "nous-research/Hermes-4-405B",
+        "name": "nous-research/Hermes 4 7B (Nous Research)",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nous/Hermes-4-70B": {
+        "id": "nous/Hermes-4-70B",
+        "name": "nous/Hermes 4 70B (Nous Research)",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nous-research/Hermes-4-70B": {
+        "id": "nous-research/Hermes-4-70B",
+        "name": "nous-research/Hermes 4 70B (Nous Research)",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/z-ai/glm-5.2": {
+        "id": "nvidia/z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/minimaxai/minimax-m2.7": {
+        "id": "nvidia/minimaxai/minimax-m2.7",
+        "name": "MiniMax M2.7",
+        "limit": {
+          "context": 204800,
+          "output": 131072
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/mistralai/mistral-small-4-119b-2603": {
+        "id": "nvidia/mistralai/mistral-small-4-119b-2603",
+        "name": "Mistral Small 4 2603",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/mistralai/mistral-large-3-675b-instruct-2512": {
+        "id": "nvidia/mistralai/mistral-large-3-675b-instruct-2512",
+        "name": "Mistral Large 3 675B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/mistralai/devstral-2-123b-instruct-2512": {
+        "id": "nvidia/mistralai/devstral-2-123b-instruct-2512",
+        "name": "Devstral 2 123B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/qwen/qwen3.5-397b-a17b": {
+        "id": "nvidia/qwen/qwen3.5-397b-a17b",
+        "name": "Qwen3.5-397B-A17B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/qwen/qwen3.5-122b-a10b": {
+        "id": "nvidia/qwen/qwen3.5-122b-a10b",
+        "name": "Qwen3.5-122B-A10B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/stepfun-ai/step-3.5-flash": {
+        "id": "nvidia/stepfun-ai/step-3.5-flash",
+        "name": "Step 3.5 Flash",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/stepfun-ai/step-3.7-flash": {
+        "id": "nvidia/stepfun-ai/step-3.7-flash",
+        "name": "Step 3.7 Flash",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/moonshotai/kimi-k2.6": {
+        "id": "nvidia/moonshotai/kimi-k2.6",
+        "name": "Kimi K2.6",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nemotron-3-ultra-550b-a55b": {
+        "id": "nvidia/nvidia/nemotron-3-ultra-550b-a55b",
+        "name": "Nemotron 3 Ultra 550B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/abacusai/dracarys-llama-3.1-70b-instruct": {
+        "id": "nvidia/abacusai/dracarys-llama-3.1-70b-instruct",
+        "name": "Dracarys Llama 3.1 70B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/google/gemma-2-2b-it": {
+        "id": "nvidia/google/gemma-2-2b-it",
+        "name": "Gemma 2 2B IT",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/google/gemma-3n-e2b-it": {
+        "id": "nvidia/google/gemma-3n-e2b-it",
+        "name": "Gemma 3n E2B IT",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/meta/llama-3.1-8b-instruct": {
+        "id": "nvidia/meta/llama-3.1-8b-instruct",
+        "name": "Llama 3.1 8B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/meta/llama-3.2-11b-vision-instruct": {
+        "id": "nvidia/meta/llama-3.2-11b-vision-instruct",
+        "name": "Llama 3.2 11B Vision Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/meta/llama-3.2-1b-instruct": {
+        "id": "nvidia/meta/llama-3.2-1b-instruct",
+        "name": "Llama 3.2 1B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/meta/llama-3.2-3b-instruct": {
+        "id": "nvidia/meta/llama-3.2-3b-instruct",
+        "name": "Llama 3.2 3B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/meta/llama-3.2-90b-vision-instruct": {
+        "id": "nvidia/meta/llama-3.2-90b-vision-instruct",
+        "name": "Llama 3.2 90B Vision Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/meta/llama-4-maverick-17b-128e-instruct": {
+        "id": "nvidia/meta/llama-4-maverick-17b-128e-instruct",
+        "name": "Llama 4 Maverick 17B 128E Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/meta/llama-guard-4-12b": {
+        "id": "nvidia/meta/llama-guard-4-12b",
+        "name": "Llama Guard 4 12B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/mistralai/ministral-14b-instruct-2512": {
+        "id": "nvidia/mistralai/ministral-14b-instruct-2512",
+        "name": "Ministral 14B Instruct 2512",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/mistralai/mistral-medium-3.5-128b": {
+        "id": "nvidia/mistralai/mistral-medium-3.5-128b",
+        "name": "Mistral Medium 3.5 128B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/mistralai/mistral-nemotron": {
+        "id": "nvidia/mistralai/mistral-nemotron",
+        "name": "Mistral Nemotron",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/mistralai/mixtral-8x7b-instruct-v0.1": {
+        "id": "nvidia/mistralai/mixtral-8x7b-instruct-v0.1",
+        "name": "Mixtral 8x7B Instruct v0.1",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/ising-calibration-1-35b-a3b": {
+        "id": "nvidia/nvidia/ising-calibration-1-35b-a3b",
+        "name": "Ising Calibration 1 35B A3B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/llama-3.1-nemoguard-8b-content-safety": {
+        "id": "nvidia/nvidia/llama-3.1-nemoguard-8b-content-safety",
+        "name": "Llama 3.1 Nemoguard 8B Content Safety",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/llama-3.1-nemoguard-8b-topic-control": {
+        "id": "nvidia/nvidia/llama-3.1-nemoguard-8b-topic-control",
+        "name": "Llama 3.1 Nemoguard 8B Topic Control",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/llama-3.1-nemotron-nano-8b-v1": {
+        "id": "nvidia/nvidia/llama-3.1-nemotron-nano-8b-v1",
+        "name": "Llama 3.1 Nemotron Nano 8B v1",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/llama-3.1-nemotron-nano-vl-8b-v1": {
+        "id": "nvidia/nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+        "name": "Llama 3.1 Nemotron Nano VL 8B v1",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/llama-3.1-nemotron-safety-guard-8b-v3": {
+        "id": "nvidia/nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+        "name": "Llama 3.1 Nemotron Safety Guard 8B v3",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1": {
+        "id": "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1",
+        "name": "Llama 3.3 Nemotron Super 49B v1",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5": {
+        "id": "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+        "name": "Llama 3.3 Nemotron Super 49B v1.5",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nemotron-3-content-safety": {
+        "id": "nvidia/nvidia/nemotron-3-content-safety",
+        "name": "Nemotron 3 Content Safety",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nemotron-3-nano-30b-a3b": {
+        "id": "nvidia/nvidia/nemotron-3-nano-30b-a3b",
+        "name": "Nemotron 3 Nano 30B A3B",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
+        "id": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "name": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nemotron-3.5-content-safety": {
+        "id": "nvidia/nvidia/nemotron-3.5-content-safety",
+        "name": "Nemotron 3.5 Content Safety",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nemotron-mini-4b-instruct": {
+        "id": "nvidia/nvidia/nemotron-mini-4b-instruct",
+        "name": "Nemotron Mini 4B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nemotron-nano-12b-v2-vl": {
+        "id": "nvidia/nvidia/nemotron-nano-12b-v2-vl",
+        "name": "Nemotron Nano 12B v2 VL",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/nvidia-nemotron-nano-9b-v2": {
+        "id": "nvidia/nvidia/nvidia-nemotron-nano-9b-v2",
+        "name": "NVIDIA Nemotron Nano 9B v2",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/nvidia/riva-translate-4b-instruct-v1.1": {
+        "id": "nvidia/nvidia/riva-translate-4b-instruct-v1.1",
+        "name": "Riva Translate 4B Instruct v1.1",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/qwen/qwen3-next-80b-a3b-instruct": {
+        "id": "nvidia/qwen/qwen3-next-80b-a3b-instruct",
+        "name": "Qwen3 Next 80B A3B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/sarvamai/sarvam-m": {
+        "id": "nvidia/sarvamai/sarvam-m",
+        "name": "Sarvam M",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/stockmark/stockmark-2-100b-instruct": {
+        "id": "nvidia/stockmark/stockmark-2-100b-instruct",
+        "name": "Stockmark 2 100B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
+      },
+      "nvidia/upstage/solar-10.7b-instruct": {
+        "id": "nvidia/upstage/solar-10.7b-instruct",
+        "name": "Solar 10.7B Instruct",
+        "limit": {
+          "context": 128000
+        },
+        "tool_call": true,
+        "reasoning": true
       }
     }
   }
